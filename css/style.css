@@ -13,6 +13,11 @@ button {
     color: inherit;
 }
 
+iframe .player .vp-title .vp-title-header:hover{
+    display: none !important;
+    opacity: 0;
+}
+
 .hide {
     display: none;
 }

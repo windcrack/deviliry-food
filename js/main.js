@@ -26,6 +26,8 @@ const buttonAuth = document.querySelector('.button-auth'),
 
 let login = localStorage.getItem('loginUser');
 
+
+
 const card = JSON.parse(localStorage.getItem('cartPrice')) || [];
 
 const saveCard = () =>{
@@ -260,6 +262,7 @@ function changeCount(e){
     renderCart();
   }
 }
+
 
 function init() {
 
